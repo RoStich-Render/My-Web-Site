@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Earth in Space</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-button" type="button">Main</button>
+        <button class="nav-button" type="button">About</button>
+        <button class="nav-button" type="button">Contact</button>
+      </nav>
+    </header>
+
+    <main id="home" class="site-main">
+      <section class="hero" aria-label="3D Earth scene">
+        <div class="hero-text">
+          <h1 class="title">Planet Earth</h1>
+          <p class="subtitle">Click anywhere on the space scene to rotate the Earth.</p>
+        </div>
+
+        <div id="scene-container" class="scene" role="img" aria-label="Interactive 3D Earth"></div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
